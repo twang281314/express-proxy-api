@@ -1,0 +1,23 @@
+{
+  "name": "express-proxy-api",
+  "version": "1.0.0",
+  "description": "使用express代理ajax请求",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twang281314/express-proxy-api.git"
+  },
+  "author": "anytao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/twang281314/express-proxy-api/issues"
+  },
+  "homepage": "https://github.com/twang281314/express-proxy-api#readme",
+  "dependencies": {
+    "connect-modrewrite": "^0.10.1",
+    "express": "^4.15.2"
+  }
+}
