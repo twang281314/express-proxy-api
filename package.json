@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/twang281314/express-proxy-api#readme",
   "dependencies": {
+    "body-parser": "^1.17.1",
     "connect-modrewrite": "^0.10.1",
     "cors": "^2.8.1",
     "express": "^4.15.2"

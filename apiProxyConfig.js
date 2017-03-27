@@ -9,7 +9,8 @@
 var apiProxyConfig = {
 
     local: [
-        '^/api/(.*)$ http://localhost:8081/$1 [P]',
+        // '^/api/(.*)$ http://localhost:3000/api/$1 [P]',
+        // '^/api/(.*)$ http://localhost:3000/$1 [P]',
         '^/local_api/(.*)$ http://127.0.0.1:8081/$1 [P]', 
         '^/uploadFile_api/(.*)$ http://localhost:8081/$1 [P]'
     ],

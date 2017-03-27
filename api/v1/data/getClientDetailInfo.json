@@ -1,0 +1,25 @@
+{
+    "data": {
+        "birthday": 19870109,
+        "zipcode": "100000",
+        "address": "1111111111111111111",
+        "email": "",
+        "client_name": "0109",
+        "client_id": "200059",
+        "id_kind": "0",
+        "id_no": "110105198701090010",
+        "issued_depart": "",
+        "id_begindate": 11111111,
+        "id_enddate": 30001231,
+        "id_address": "1111111111111111111",
+        "mobile_tel": "15868819690",
+        "home_tel": "13888888888",
+        "degree_code": "2",
+        "profession_code": "06",
+        "e_mail": "",
+        "sec_relation_name": "说到底",
+        "sec_relation_phone": "15712345678",
+        "socialral_type": "5",
+        "branch_name": "滨江营业部"
+    }
+}
