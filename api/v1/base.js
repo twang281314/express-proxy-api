@@ -21,4 +21,15 @@ var captcha = function (req, res, next) {
     }
   });
 }
+
+var login = function (req, res, next) {
+  fs.readFile('api/v1/data/login.json', {
+    encoding: 'utf-8'
+  }, function (error, data) {
+    if (error) console.log(error);
+    res.send(data);
+  });
+}
+
 exports.captcha = captcha;
+exports.login = login;
