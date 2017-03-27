@@ -1,10 +1,15 @@
 var express = require('express');
 var modRewrite = require('connect-modrewrite'); //api路由转发
 var apiProxyConfig = require('./apiProxyConfig');
+var apiRouterV1 = require('./api_router_v1');
+var cors = require('cors');
 var app = express();
 
 //处理 api proxy
 app.use(modRewrite(apiProxyConfig.dev));
+
+// routes
+app.use('/api/v1', cors(), apiRouterV1);
 
 app.get('/', function (req, res) {
     res.send('Hello World!');
