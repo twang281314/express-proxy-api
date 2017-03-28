@@ -77,6 +77,24 @@ var loginOut = function (req, res, next) {
   });
 }
 
+var modIDcardInfo = function (req, res, next) {
+   fs.readFile('api/v1/data/modIDcardInfo.json', {
+    encoding: 'utf-8'
+  }, function (error, data) {
+    if (error) console.log(error);
+    res.send(data);
+  });
+}
+
+var submitIdKindImgUpload = function (req, res, next) {
+   fs.readFile('api/v1/data/submitIdKindImgUpload.json', {
+    encoding: 'utf-8'
+  }, function (error, data) {
+    if (error) console.log(error);
+    res.send(data);
+  });
+}
+
 exports.captcha = captcha;
 exports.login = login;
 exports.getDeployConfig = getDeployConfig;
@@ -84,3 +102,5 @@ exports.getAccountView = getAccountView;
 exports.getClientDetailInfo = getClientDetailInfo;
 exports.qryDictEntry = qryDictEntry;
 exports.loginOut = loginOut;
+exports.modIDcardInfo = modIDcardInfo;
+exports.submitIdKindImgUpload = submitIdKindImgUpload;

@@ -11,5 +11,7 @@ router.post('/getAccountView',baseController.getAccountView);
 router.post('/getClientDetailInfo',baseController.getClientDetailInfo);
 router.post('/qryDictEntry',baseController.qryDictEntry);
 router.post('/loginOut',baseController.loginOut);
+router.post('/modIDcardInfo',baseController.modIDcardInfo);
+router.post('/submitIdKindImgUpload',baseController.submitIdKindImgUpload);
 
 module.exports = router;
