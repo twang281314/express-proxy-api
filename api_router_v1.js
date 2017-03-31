@@ -13,5 +13,8 @@ router.post('/qryDictEntry',baseController.qryDictEntry);
 router.post('/loginOut',baseController.loginOut);
 router.post('/modIDcardInfo',baseController.modIDcardInfo);
 router.post('/submitIdKindImgUpload',baseController.submitIdKindImgUpload);
+router.post('/getChannelInfo',baseController.getChannelInfo);
+router.post('/getSysConfig',baseController.getSysConfig);
+router.post('/checkEligInfo',baseController.checkEligInfo);
 
 module.exports = router;

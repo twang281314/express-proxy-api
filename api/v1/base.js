@@ -95,6 +95,33 @@ var submitIdKindImgUpload = function (req, res, next) {
   });
 }
 
+var getChannelInfo = function (req, res, next) {
+   fs.readFile('api/v1/data/getChannelInfo.json', {
+    encoding: 'utf-8'
+  }, function (error, data) {
+    if (error) console.log(error);
+    res.send(data);
+  });
+}
+
+var getSysConfig = function (req, res, next) {
+   fs.readFile('api/v1/data/getSysConfig.json', {
+    encoding: 'utf-8'
+  }, function (error, data) {
+    if (error) console.log(error);
+    res.send(data);
+  });
+}
+
+var checkEligInfo = function (req, res, next) {
+   fs.readFile('api/v1/data/checkEligInfo.json', {
+    encoding: 'utf-8'
+  }, function (error, data) {
+    if (error) console.log(error);
+    res.send(data);
+  });
+}
+
 exports.captcha = captcha;
 exports.login = login;
 exports.getDeployConfig = getDeployConfig;
@@ -104,3 +131,6 @@ exports.qryDictEntry = qryDictEntry;
 exports.loginOut = loginOut;
 exports.modIDcardInfo = modIDcardInfo;
 exports.submitIdKindImgUpload = submitIdKindImgUpload;
+exports.getChannelInfo = getChannelInfo;
+exports.getSysConfig = getSysConfig;
+exports.checkEligInfo = checkEligInfo;
