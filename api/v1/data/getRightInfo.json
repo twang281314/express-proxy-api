@@ -1,0 +1,11 @@
+{
+    "data": [{
+        "exchange_type": "1",
+        "stock_account": "A024613302",
+        "right_open_flag": "0"
+    }, {
+        "exchange_type": "2",
+        "stock_account": "0103472554",
+        "right_open_flag": "0"
+    }]
+}

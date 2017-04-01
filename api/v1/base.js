@@ -122,6 +122,78 @@ var checkEligInfo = function (req, res, next) {
   });
 }
 
+var getAgreement = function (req, res, next) {
+   fs.readFile('api/v1/data/getAgreement.json', {
+    encoding: 'utf-8'
+  }, function (error, data) {
+    if (error) console.log(error);
+    res.send(data);
+  });
+}
+
+var getCreditRiskLevel = function (req, res, next) {
+   fs.readFile('api/v1/data/getCreditRiskLevel.json', {
+    encoding: 'utf-8'
+  }, function (error, data) {
+    if (error) console.log(error);
+    res.send(data);
+  });
+}
+
+var getRightInfo = function (req, res, next) {
+   fs.readFile('api/v1/data/getRightInfo.json', {
+    encoding: 'utf-8'
+  }, function (error, data) {
+    if (error) console.log(error);
+    res.send(data);
+  });
+}
+
+var getTemplatePageNum = function (req, res, next) {
+   fs.readFile('api/v1/data/getTemplatePageNum.json', {
+    encoding: 'utf-8'
+  }, function (error, data) {
+    if (error) console.log(error);
+    res.send(data);
+  });
+}
+
+var getEntrustWay = function (req, res, next) {
+   fs.readFile('api/v1/data/getEntrustWay.json', {
+    encoding: 'utf-8'
+  }, function (error, data) {
+    if (error) console.log(error);
+    res.send(data);
+  });
+}
+
+var getEligPaper = function (req, res, next) {
+   fs.readFile('api/v1/data/getEligPaper.json', {
+    encoding: 'utf-8'
+  }, function (error, data) {
+    if (error) console.log(error);
+    res.send(data);
+  });
+}
+
+var getBusiCtrlInfo = function (req, res, next) {
+   fs.readFile('api/v1/data/getBusiCtrlInfo.json', {
+    encoding: 'utf-8'
+  }, function (error, data) {
+    if (error) console.log(error);
+    res.send(data);
+  });
+}
+
+var getBusiAccount = function (req, res, next) {
+   fs.readFile('api/v1/data/getBusiAccount.json', {
+    encoding: 'utf-8'
+  }, function (error, data) {
+    if (error) console.log(error);
+    res.send(data);
+  });
+}
+
 exports.captcha = captcha;
 exports.login = login;
 exports.getDeployConfig = getDeployConfig;
@@ -134,3 +206,11 @@ exports.submitIdKindImgUpload = submitIdKindImgUpload;
 exports.getChannelInfo = getChannelInfo;
 exports.getSysConfig = getSysConfig;
 exports.checkEligInfo = checkEligInfo;
+exports.getAgreement = getAgreement;
+exports.getCreditRiskLevel = getCreditRiskLevel;
+exports.getRightInfo = getRightInfo;
+exports.getTemplatePageNum = getTemplatePageNum;
+exports.getEntrustWay = getEntrustWay;
+exports.getEligPaper = getEligPaper;
+exports.getBusiCtrlInfo = getBusiCtrlInfo;
+exports.getBusiAccount = getBusiAccount;

@@ -1,0 +1,39 @@
+{
+    "data": [{
+        "subentry": "0",
+        "dict_entry": "1301",
+        "dict_prompt": "资金"
+    }, {
+        "subentry": "1",
+        "dict_entry": "1301",
+        "dict_prompt": "上海"
+    }, {
+        "subentry": "2",
+        "dict_entry": "1301",
+        "dict_prompt": "深圳"
+    }, {
+        "subentry": "9",
+        "dict_entry": "1301",
+        "dict_prompt": "特转A"
+    }, {
+        "subentry": "A",
+        "dict_entry": "1301",
+        "dict_prompt": "特转B"
+    }, {
+        "subentry": "D",
+        "dict_entry": "1301",
+        "dict_prompt": "沪Ｂ"
+    }, {
+        "subentry": "G",
+        "dict_entry": "1301",
+        "dict_prompt": "沪HK"
+    }, {
+        "subentry": "H",
+        "dict_entry": "1301",
+        "dict_prompt": "深Ｂ"
+    }, {
+        "subentry": "S",
+        "dict_entry": "1301",
+        "dict_prompt": "深HK"
+    }]
+}

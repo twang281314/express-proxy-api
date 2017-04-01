@@ -16,5 +16,13 @@ router.post('/submitIdKindImgUpload',baseController.submitIdKindImgUpload);
 router.post('/getChannelInfo',baseController.getChannelInfo);
 router.post('/getSysConfig',baseController.getSysConfig);
 router.post('/checkEligInfo',baseController.checkEligInfo);
+router.post('/getAgreement',baseController.getAgreement);
+router.post('/getCreditRiskLevel',baseController.getCreditRiskLevel);
+router.post('/getRightInfo',baseController.getRightInfo);
+router.post('/getTemplatePageNum',baseController.getTemplatePageNum);
+router.post('/getEntrustWay',baseController.getEntrustWay);
+router.post('/getEligPaper',baseController.getEligPaper);
+router.post('/getBusiCtrlInfo',baseController.getBusiCtrlInfo);
+router.post('/getBusiAccount',baseController.getBusiAccount);
 
 module.exports = router;
