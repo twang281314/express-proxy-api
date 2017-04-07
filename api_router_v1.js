@@ -24,5 +24,8 @@ router.post('/getEntrustWay',baseController.getEntrustWay);
 router.post('/getEligPaper',baseController.getEligPaper);
 router.post('/getBusiCtrlInfo',baseController.getBusiCtrlInfo);
 router.post('/getBusiAccount',baseController.getBusiAccount);
+router.post('/getSecuStock',baseController.getSecuStock);
+router.post('/getClientFund',baseController.getClientFund);
+router.post('/subAcptForm',baseController.subAcptForm);
 
 module.exports = router;

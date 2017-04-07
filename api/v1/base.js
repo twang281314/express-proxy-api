@@ -32,7 +32,7 @@ var login = function (req, res, next) {
 }
 
 var getDeployConfig = function (req, res, next) {
-   fs.readFile('api/v1/data/getDeployConfig.json', {
+  fs.readFile('api/v1/data/getDeployConfig.json', {
     encoding: 'utf-8'
   }, function (error, data) {
     if (error) console.log(error);
@@ -41,7 +41,7 @@ var getDeployConfig = function (req, res, next) {
 }
 
 var getAccountView = function (req, res, next) {
-   fs.readFile('api/v1/data/getAccountView.json', {
+  fs.readFile('api/v1/data/getAccountView.json', {
     encoding: 'utf-8'
   }, function (error, data) {
     if (error) console.log(error);
@@ -50,7 +50,7 @@ var getAccountView = function (req, res, next) {
 }
 
 var getClientDetailInfo = function (req, res, next) {
-   fs.readFile('api/v1/data/getClientDetailInfo.json', {
+  fs.readFile('api/v1/data/getClientDetailInfo.json', {
     encoding: 'utf-8'
   }, function (error, data) {
     if (error) console.log(error);
@@ -59,8 +59,8 @@ var getClientDetailInfo = function (req, res, next) {
 }
 
 var qryDictEntry = function (req, res, next) {
-   var  dict_entry = req.body.dict_entry;
-   fs.readFile('api/v1/data/qryDictEntry-'+dict_entry+'.json', {
+  var dict_entry = req.body.dict_entry;
+  fs.readFile('api/v1/data/qryDictEntry-' + dict_entry + '.json', {
     encoding: 'utf-8'
   }, function (error, data) {
     if (error) console.log(error);
@@ -69,7 +69,7 @@ var qryDictEntry = function (req, res, next) {
 }
 
 var loginOut = function (req, res, next) {
-   fs.readFile('api/v1/data/loginOut.json', {
+  fs.readFile('api/v1/data/loginOut.json', {
     encoding: 'utf-8'
   }, function (error, data) {
     if (error) console.log(error);
@@ -78,7 +78,7 @@ var loginOut = function (req, res, next) {
 }
 
 var modIDcardInfo = function (req, res, next) {
-   fs.readFile('api/v1/data/modIDcardInfo.json', {
+  fs.readFile('api/v1/data/modIDcardInfo.json', {
     encoding: 'utf-8'
   }, function (error, data) {
     if (error) console.log(error);
@@ -87,7 +87,7 @@ var modIDcardInfo = function (req, res, next) {
 }
 
 var submitIdKindImgUpload = function (req, res, next) {
-   fs.readFile('api/v1/data/submitIdKindImgUpload.json', {
+  fs.readFile('api/v1/data/submitIdKindImgUpload.json', {
     encoding: 'utf-8'
   }, function (error, data) {
     if (error) console.log(error);
@@ -96,7 +96,7 @@ var submitIdKindImgUpload = function (req, res, next) {
 }
 
 var getChannelInfo = function (req, res, next) {
-   fs.readFile('api/v1/data/getChannelInfo.json', {
+  fs.readFile('api/v1/data/getChannelInfo.json', {
     encoding: 'utf-8'
   }, function (error, data) {
     if (error) console.log(error);
@@ -105,7 +105,7 @@ var getChannelInfo = function (req, res, next) {
 }
 
 var getSysConfig = function (req, res, next) {
-   fs.readFile('api/v1/data/getSysConfig.json', {
+  fs.readFile('api/v1/data/getSysConfig.json', {
     encoding: 'utf-8'
   }, function (error, data) {
     if (error) console.log(error);
@@ -114,7 +114,7 @@ var getSysConfig = function (req, res, next) {
 }
 
 var checkEligInfo = function (req, res, next) {
-   fs.readFile('api/v1/data/checkEligInfo.json', {
+  fs.readFile('api/v1/data/checkEligInfo.json', {
     encoding: 'utf-8'
   }, function (error, data) {
     if (error) console.log(error);
@@ -123,7 +123,7 @@ var checkEligInfo = function (req, res, next) {
 }
 
 var getAgreement = function (req, res, next) {
-   fs.readFile('api/v1/data/getAgreement.json', {
+  fs.readFile('api/v1/data/getAgreement.json', {
     encoding: 'utf-8'
   }, function (error, data) {
     if (error) console.log(error);
@@ -132,7 +132,7 @@ var getAgreement = function (req, res, next) {
 }
 
 var getCreditRiskLevel = function (req, res, next) {
-   fs.readFile('api/v1/data/getCreditRiskLevel.json', {
+  fs.readFile('api/v1/data/getCreditRiskLevel.json', {
     encoding: 'utf-8'
   }, function (error, data) {
     if (error) console.log(error);
@@ -141,7 +141,7 @@ var getCreditRiskLevel = function (req, res, next) {
 }
 
 var getRightInfo = function (req, res, next) {
-   fs.readFile('api/v1/data/getRightInfo.json', {
+  fs.readFile('api/v1/data/getRightInfo.json', {
     encoding: 'utf-8'
   }, function (error, data) {
     if (error) console.log(error);
@@ -150,7 +150,7 @@ var getRightInfo = function (req, res, next) {
 }
 
 var getTemplatePageNum = function (req, res, next) {
-   fs.readFile('api/v1/data/getTemplatePageNum.json', {
+  fs.readFile('api/v1/data/getTemplatePageNum.json', {
     encoding: 'utf-8'
   }, function (error, data) {
     if (error) console.log(error);
@@ -159,7 +159,7 @@ var getTemplatePageNum = function (req, res, next) {
 }
 
 var getEntrustWay = function (req, res, next) {
-   fs.readFile('api/v1/data/getEntrustWay.json', {
+  fs.readFile('api/v1/data/getEntrustWay.json', {
     encoding: 'utf-8'
   }, function (error, data) {
     if (error) console.log(error);
@@ -168,7 +168,7 @@ var getEntrustWay = function (req, res, next) {
 }
 
 var getEligPaper = function (req, res, next) {
-   fs.readFile('api/v1/data/getEligPaper.json', {
+  fs.readFile('api/v1/data/getEligPaper.json', {
     encoding: 'utf-8'
   }, function (error, data) {
     if (error) console.log(error);
@@ -177,7 +177,7 @@ var getEligPaper = function (req, res, next) {
 }
 
 var getBusiCtrlInfo = function (req, res, next) {
-   fs.readFile('api/v1/data/getBusiCtrlInfo.json', {
+  fs.readFile('api/v1/data/getBusiCtrlInfo.json', {
     encoding: 'utf-8'
   }, function (error, data) {
     if (error) console.log(error);
@@ -186,7 +186,36 @@ var getBusiCtrlInfo = function (req, res, next) {
 }
 
 var getBusiAccount = function (req, res, next) {
-   fs.readFile('api/v1/data/getBusiAccount.json', {
+  fs.readFile('api/v1/data/getBusiAccount.json', {
+    encoding: 'utf-8'
+  }, function (error, data) {
+    if (error) console.log(error);
+    res.send(data);
+  });
+}
+
+var getSecuStock = function (req, res, next) {
+  var num = req.body.num;
+  fs.readFile('api/v1/data/getSecuStock.json', {
+    encoding: 'utf-8'
+  }, function (error, data) {
+    if (error) console.log(error);
+    data[0].num=num;
+    res.send(data);
+  });
+}
+
+var getClientFund = function (req, res, next) {
+  fs.readFile('api/v1/data/getClientFund.json', {
+    encoding: 'utf-8'
+  }, function (error, data) {
+    if (error) console.log(error);
+    res.send(data);
+  });
+}
+
+var subAcptForm = function (req, res, next) {
+  fs.readFile('api/v1/data/subAcptForm.json', {
     encoding: 'utf-8'
   }, function (error, data) {
     if (error) console.log(error);
@@ -214,3 +243,6 @@ exports.getEntrustWay = getEntrustWay;
 exports.getEligPaper = getEligPaper;
 exports.getBusiCtrlInfo = getBusiCtrlInfo;
 exports.getBusiAccount = getBusiAccount;
+exports.getSecuStock = getSecuStock;
+exports.getClientFund = getClientFund;
+exports.subAcptForm = subAcptForm;

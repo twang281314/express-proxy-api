@@ -2,5 +2,8 @@
     "data": [{
         "error_no": 680000,
         "error_info": "风险测评已过期"
+    },{
+        "error_no": 680001,
+        "error_info": "风险测评已过期"
     }]
 }

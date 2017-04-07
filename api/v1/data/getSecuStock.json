@@ -1,0 +1,51 @@
+{
+    "data": [{
+        "stock_name": "深交所",
+        "stock_code": "00004",
+        "hold_amount": "800",
+        "current_amount": "750",
+        "enable_amount": "200",
+        "last_price": "50",
+        "market_value": "456888"
+    },{
+        "stock_name": "深交所",
+        "stock_code": "00004",
+        "hold_amount": "800",
+        "current_amount": "750",
+        "enable_amount": "200",
+        "last_price": "50",
+        "market_value": "456888"
+    },{
+        "stock_name": "深交所",
+        "stock_code": "00004",
+        "hold_amount": "800",
+        "current_amount": "750",
+        "enable_amount": "200",
+        "last_price": "50",
+        "market_value": "456888"
+    },{
+        "stock_name": "深交所",
+        "stock_code": "00004",
+        "hold_amount": "800",
+        "current_amount": "750",
+        "enable_amount": "200",
+        "last_price": "50",
+        "market_value": "456888"
+    },{
+        "stock_name": "深交所",
+        "stock_code": "00004",
+        "hold_amount": "800",
+        "current_amount": "750",
+        "enable_amount": "200",
+        "last_price": "50",
+        "market_value": "456888"
+    },{
+        "stock_name": "深交所",
+        "stock_code": "00004",
+        "hold_amount": "800",
+        "current_amount": "750",
+        "enable_amount": "200",
+        "last_price": "50",
+        "market_value": "456888"
+    }]
+}

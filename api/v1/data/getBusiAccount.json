@@ -1,1 +1,7 @@
-{"data":[{"fund_account":"200059"}]}
+{
+    "data": [{
+        "fund_account": "200059"
+    },{
+        "fund_account": "200060"
+    }]
+}
