@@ -221,6 +221,7 @@ var subAcptForm = function (req, res, next) {
     if (error) console.log(error);
     res.send(data);
   });
+
 }
 
 exports.captcha = captcha;
