@@ -1,5 +1,6 @@
 {
     "data":[{
+        "asset":"380000",
         "enable_balance":"380000",
         "fetch_balance":"200000",
         "fetch_cash":"3566",

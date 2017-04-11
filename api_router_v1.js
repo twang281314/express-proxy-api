@@ -27,5 +27,10 @@ router.post('/getBusiAccount',baseController.getBusiAccount);
 router.post('/getSecuStock',baseController.getSecuStock);
 router.post('/getClientFund',baseController.getClientFund);
 router.post('/subAcptForm',baseController.subAcptForm);
+router.post('/checkCert',baseController.checkCert);
+router.post('/getCertList',baseController.getCertList);
+router.post('/getBusiHandleRecord',baseController.getBusiHandleRecord);
+router.post('/getRightsView',baseController.getRightsView);
+router.post('/getAgreementList',baseController.getAgreementList);
 
 module.exports = router;

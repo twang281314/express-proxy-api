@@ -224,6 +224,51 @@ var subAcptForm = function (req, res, next) {
 
 }
 
+var checkCert = function (req, res, next) {
+  fs.readFile('api/v1/data/checkCert.json', {
+    encoding: 'utf-8'
+  }, function (error, data) {
+    if (error) console.log(error);
+    res.send(data);
+  });
+}
+
+var getCertList = function (req, res, next) {
+  fs.readFile('api/v1/data/getCertList.json', {
+    encoding: 'utf-8'
+  }, function (error, data) {
+    if (error) console.log(error);
+    res.send(data);
+  });
+}
+
+var getBusiHandleRecord = function (req, res, next) {
+  fs.readFile('api/v1/data/getBusiHandleRecord.json', {
+    encoding: 'utf-8'
+  }, function (error, data) {
+    if (error) console.log(error);
+    res.send(data);
+  });
+}
+
+var getRightsView = function (req, res, next) {
+  fs.readFile('api/v1/data/getRightsView.json', {
+    encoding: 'utf-8'
+  }, function (error, data) {
+    if (error) console.log(error);
+    res.send(data);
+  });
+}
+
+var getAgreementList = function (req, res, next) {
+  fs.readFile('api/v1/data/getAgreementList.json', {
+    encoding: 'utf-8'
+  }, function (error, data) {
+    if (error) console.log(error);
+    res.send(data);
+  });
+}
+
 exports.captcha = captcha;
 exports.login = login;
 exports.getDeployConfig = getDeployConfig;
@@ -247,3 +292,8 @@ exports.getBusiAccount = getBusiAccount;
 exports.getSecuStock = getSecuStock;
 exports.getClientFund = getClientFund;
 exports.subAcptForm = subAcptForm;
+exports.checkCert = checkCert;
+exports.getCertList = getCertList;
+exports.getBusiHandleRecord = getBusiHandleRecord;
+exports.getRightsView = getRightsView;
+exports.getAgreementList = getAgreementList;
