@@ -269,6 +269,15 @@ var getAgreementList = function (req, res, next) {
   });
 }
 
+var getStockHolderAccount = function (req, res, next) {
+  fs.readFile('api/v1/data/getStockHolderAccount.json', {
+    encoding: 'utf-8'
+  }, function (error, data) {
+    if (error) console.log(error);
+    res.send(data);
+  });
+}
+
 exports.captcha = captcha;
 exports.login = login;
 exports.getDeployConfig = getDeployConfig;
@@ -297,3 +306,4 @@ exports.getCertList = getCertList;
 exports.getBusiHandleRecord = getBusiHandleRecord;
 exports.getRightsView = getRightsView;
 exports.getAgreementList = getAgreementList;
+exports.getStockHolderAccount = getStockHolderAccount;

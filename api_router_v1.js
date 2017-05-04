@@ -32,5 +32,6 @@ router.post('/getCertList',baseController.getCertList);
 router.post('/getBusiHandleRecord',baseController.getBusiHandleRecord);
 router.post('/getRightsView',baseController.getRightsView);
 router.post('/getAgreementList',baseController.getAgreementList);
+router.post('/getStockHolderAccount',baseController.getStockHolderAccount);
 
 module.exports = router;
