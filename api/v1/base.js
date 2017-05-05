@@ -277,6 +277,23 @@ var getStockHolderAccount = function (req, res, next) {
     res.send(data);
   });
 }
+var getMobileTelInfo = function (req, res, next) {
+  fs.readFile('api/v1/data/getMobileTelInfo.json', {
+    encoding: 'utf-8'
+  }, function (error, data) {
+    if (error) console.log(error);
+    res.send(data);
+  });
+}
+
+var sendValidCode = function (req, res, next) {
+  fs.readFile('api/v1/data/sendValidCode.json', {
+    encoding: 'utf-8'
+  }, function (error, data) {
+    if (error) console.log(error);
+    res.send(data);
+  });
+}
 
 exports.captcha = captcha;
 exports.login = login;
@@ -307,3 +324,5 @@ exports.getBusiHandleRecord = getBusiHandleRecord;
 exports.getRightsView = getRightsView;
 exports.getAgreementList = getAgreementList;
 exports.getStockHolderAccount = getStockHolderAccount;
+exports.getMobileTelInfo = getMobileTelInfo;
+exports.sendValidCode = sendValidCode;

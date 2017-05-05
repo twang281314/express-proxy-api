@@ -33,5 +33,7 @@ router.post('/getBusiHandleRecord',baseController.getBusiHandleRecord);
 router.post('/getRightsView',baseController.getRightsView);
 router.post('/getAgreementList',baseController.getAgreementList);
 router.post('/getStockHolderAccount',baseController.getStockHolderAccount);
+router.post('/getMobileTelInfo',baseController.getMobileTelInfo);
+router.post('/sendValidCode',baseController.sendValidCode);//验证码发送
 
 module.exports = router;

@@ -1,1 +1,15 @@
-{"data":[{"content":"[{\"exchange_type\":\"1\",\"open_right_flag\":\"0\",\"stock_account\":\"A024613302\"},{\"exchange_type\":\"2\",\"open_right_flag\":\"0\",\"stock_account\":\"0103472554\"}]","holder_rights":"d"},{"content":"[{\"exchange_type\":\"1\",\"open_right_flag\":\"0\",\"stock_account\":\"A024613302\"}]","holder_rights":"w"},{"content":"[{\"exchange_type\":\"1\",\"open_right_flag\":\"0\",\"stock_account\":\"A024613302\"},{\"exchange_type\":\"2\",\"open_right_flag\":\"0\",\"stock_account\":\"0103472554\"}]","holder_rights":"c"},{"content":"[{\"exchange_type\":\"2\",\"open_right_flag\":\"0\",\"stock_account\":\"0103472554\"}]","holder_rights":"j"}]}
+{
+    "data": [{
+        "content": "[{\"exchange_type\":\"1\",\"open_right_flag\":\"0\",\"stock_account\":\"A024613302\"},{\"exchange_type\":\"2\",\"open_right_flag\":\"0\",\"stock_account\":\"0103472554\"}]",
+        "holder_rights": "d"
+    }, {
+        "content": "[{\"exchange_type\":\"1\",\"open_right_flag\":\"0\",\"stock_account\":\"A024613302\"}]",
+        "holder_rights": "w"
+    }, {
+        "content": "[{\"exchange_type\":\"1\",\"open_right_flag\":\"0\",\"stock_account\":\"A024613302\"},{\"exchange_type\":\"2\",\"open_right_flag\":\"0\",\"stock_account\":\"0103472554\"}]",
+        "holder_rights": "c"
+    }, {
+        "content": "[{\"exchange_type\":\"2\",\"open_right_flag\":\"0\",\"stock_account\":\"0103472554\"}]",
+        "holder_rights": "j"
+    }]
+}
