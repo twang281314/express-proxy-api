@@ -295,6 +295,36 @@ var sendValidCode = function (req, res, next) {
   });
 }
 
+var openRight = function (req, res, next) {
+  var stock_account = req.body.stock_account;
+  fs.readFile('api/v1/data/openRight.json', {
+    encoding: 'utf-8'
+  }, function (error, data) {
+    if (error) console.log(error);
+    var result = JSON.parse(data);
+    result.data.stock_account=stock_account;
+    res.send(result);
+  });
+}
+var signContract = function (req, res, next) {
+  var stock_account = req.body.stock_account;
+  fs.readFile('api/v1/data/signContract.json', {
+    encoding: 'utf-8'
+  }, function (error, data) {
+    if (error) console.log(error);
+    res.send(data);
+  });
+}
+var checkPreRights = function (req, res, next) {
+  var stock_account = req.body.stock_account;
+  fs.readFile('api/v1/data/checkPreRights.json', {
+    encoding: 'utf-8'
+  }, function (error, data) {
+    if (error) console.log(error);
+    res.send(data);
+  });
+}
+
 exports.captcha = captcha;
 exports.login = login;
 exports.getDeployConfig = getDeployConfig;
@@ -326,3 +356,6 @@ exports.getAgreementList = getAgreementList;
 exports.getStockHolderAccount = getStockHolderAccount;
 exports.getMobileTelInfo = getMobileTelInfo;
 exports.sendValidCode = sendValidCode;
+exports.openRight = openRight;
+exports.signContract = signContract;
+exports.checkPreRights = checkPreRights;

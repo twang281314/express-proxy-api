@@ -35,5 +35,8 @@ router.post('/getAgreementList',baseController.getAgreementList);
 router.post('/getStockHolderAccount',baseController.getStockHolderAccount);
 router.post('/getMobileTelInfo',baseController.getMobileTelInfo);
 router.post('/sendValidCode',baseController.sendValidCode);//验证码发送
+router.post('/openRight',baseController.openRight);
+router.post('/signContract',baseController.signContract);
+router.post('/checkPreRights',baseController.checkPreRights);
 
 module.exports = router;
