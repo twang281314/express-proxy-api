@@ -324,6 +324,15 @@ var checkPreRights = function (req, res, next) {
     res.send(data);
   });
 }
+var signAgreement = function (req, res, next) {
+  var stock_account = req.body.stock_account;
+  fs.readFile('api/v1/data/signAgreement.json', {
+    encoding: 'utf-8'
+  }, function (error, data) {
+    if (error) console.log(error);
+    res.send(data);
+  });
+}
 
 exports.captcha = captcha;
 exports.login = login;
@@ -359,3 +368,4 @@ exports.sendValidCode = sendValidCode;
 exports.openRight = openRight;
 exports.signContract = signContract;
 exports.checkPreRights = checkPreRights;
+exports.signAgreement = signAgreement;

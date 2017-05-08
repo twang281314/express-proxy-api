@@ -38,5 +38,6 @@ router.post('/sendValidCode',baseController.sendValidCode);//验证码发送
 router.post('/openRight',baseController.openRight);
 router.post('/signContract',baseController.signContract);
 router.post('/checkPreRights',baseController.checkPreRights);
+router.post('/signAgreement',baseController.signAgreement);//电子签名
 
 module.exports = router;
