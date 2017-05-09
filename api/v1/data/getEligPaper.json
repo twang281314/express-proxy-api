@@ -22,21 +22,29 @@
     }, {
         "paper_type": "1",
         "organ_flag": "0",
-        "question_no": 10,
-        "question_kind": "0",
-        "question_content": "受教育情况",
-        "question_type": "1",
-        "answer_content": "{\"1\":\"文盲\",\"2\":\"小学\",\"3\":\"初中\",\"4\":\"本科及以上\"}",
-        "trade_rate": 0.0,
-        "paper_answer": ""
-    }, {
-        "paper_type": "1",
-        "organ_flag": "0",
         "question_no": 8,
         "question_kind": "0",
         "question_content": "每年的收入是多少",
         "question_type": "1",
         "answer_content": "{\"1\":\"5万以下\",\"2\":\"5-10万\",\"3\":\"10-50万\"}",
+        "trade_rate": 0.0,
+        "paper_answer": ""
+    }, {
+        "paper_type": "1",
+        "organ_flag": "0",
+        "question_no": 11,
+        "question_kind": "1",
+        "question_content": "您去过哪些地方",
+        "question_type": "1",
+        "answer_content": [{
+            "text": "北京",
+            "value": "1",
+            "isChoose": true
+        }, {
+            "text": "上海",
+            "value": "2",
+            "isChoose": false
+        }],
         "trade_rate": 0.0,
         "paper_answer": ""
     }]
