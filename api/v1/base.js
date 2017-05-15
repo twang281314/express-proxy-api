@@ -302,7 +302,7 @@ var openRight = function (req, res, next) {
   }, function (error, data) {
     if (error) console.log(error);
     var result = JSON.parse(data);
-    result.data.stock_account=stock_account;
+    result.data.error_info=result.data.error_info+stock_account;
     res.send(result);
   });
 }
@@ -333,9 +333,20 @@ var signAgreement = function (req, res, next) {
     res.send(data);
   });
 }
+
 var modClientInfo = function (req, res, next) {
   var stock_account = req.body.stock_account;
   fs.readFile('api/v1/data/modClientInfo.json', {
+    encoding: 'utf-8'
+  }, function (error, data) {
+    if (error) console.log(error);
+    res.send(data);
+  });
+}
+
+var getPaperResult = function (req, res, next) {
+  var stock_account = req.body.stock_account;
+  fs.readFile('api/v1/data/getPaperResult.json', {
     encoding: 'utf-8'
   }, function (error, data) {
     if (error) console.log(error);
@@ -379,3 +390,4 @@ exports.signContract = signContract;
 exports.checkPreRights = checkPreRights;
 exports.signAgreement = signAgreement;
 exports.modClientInfo = modClientInfo;
+exports.getPaperResult = getPaperResult;

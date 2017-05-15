@@ -36,16 +36,5 @@
         "question_kind": "1",
         "question_content": "您去过哪些地方",
         "question_type": "1",
-        "answer_content": [{
-            "text": "北京",
-            "value": "1",
-            "isChoose": true
-        }, {
-            "text": "上海",
-            "value": "2",
-            "isChoose": false
-        }],
-        "trade_rate": 0.0,
-        "paper_answer": ""
-    }]
+        "answer_content":"{\"1\":\"18-25\",\"2\":\"25-30\"}"
 }

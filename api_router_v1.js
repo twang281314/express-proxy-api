@@ -39,6 +39,7 @@ router.post('/openRight',baseController.openRight);
 router.post('/signContract',baseController.signContract);
 router.post('/checkPreRights',baseController.checkPreRights);
 router.post('/signAgreement',baseController.signAgreement);//电子签名
-router.post('/modClientInfo',baseController.modClientInfo);//电子签名
+router.post('/modClientInfo',baseController.modClientInfo);
+router.post('/getPaperResult',baseController.getPaperResult);
 
 module.exports = router;
