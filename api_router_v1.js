@@ -41,5 +41,6 @@ router.post('/checkPreRights',baseController.checkPreRights);
 router.post('/signAgreement',baseController.signAgreement);//电子签名
 router.post('/modClientInfo',baseController.modClientInfo);
 router.post('/getPaperResult',baseController.getPaperResult);
+router.post('/getAreaList',baseController.getAreaList);
 
 module.exports = router;

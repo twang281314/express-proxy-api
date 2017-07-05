@@ -353,6 +353,15 @@ var getPaperResult = function (req, res, next) {
     res.send(data);
   });
 }
+var getAreaList = function (req, res, next) {
+  var stock_account = req.body.stock_account;
+  fs.readFile('api/v1/data/getAreaList.json', {
+    encoding: 'utf-8'
+  }, function (error, data) {
+    if (error) console.log(error);
+    res.send(data);
+  });
+}
 
 exports.captcha = captcha;
 exports.login = login;
@@ -391,3 +400,4 @@ exports.checkPreRights = checkPreRights;
 exports.signAgreement = signAgreement;
 exports.modClientInfo = modClientInfo;
 exports.getPaperResult = getPaperResult;
+exports.getAreaList = getAreaList;
